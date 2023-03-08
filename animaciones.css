@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    background-color: #eeaf0f44;
+    border: none;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-modern:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+    box-shadow: -0.2em 0 0.4em black;
+    transform: translateY(-5px);  /*nos permite recorrer elementos en el eje X o Y*/
+}
