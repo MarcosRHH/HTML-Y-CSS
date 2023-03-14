@@ -22,11 +22,14 @@
     background-color: yellow;
     padding: 0.5em;
     margin: 0.5em;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 70%;
     align-items: center;
 }
 
+.mainsection .item {
+    height: 80%;
+}
 .item {
     background-color: chocolate;
     padding: 0.5em;
@@ -36,6 +39,7 @@
     font: 1em sans-serif;
     color: aliceblue;
     font-size: 1.5em;
+    justify-content: center;
 }
 
 .mainsection .item {
